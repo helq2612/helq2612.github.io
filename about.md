@@ -4,27 +4,34 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! I am Liqiang He, a CS graduate student in Oregon State University. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Currently I am working in [Dr.Rebecca A. Hutchinson](http://eecs.oregonstate.edu/people/hutchinson-rebecca)'s Machine Learning Group, dealing with Occupancy-Detection Model that takes into account class-conditional noise in classification problems. Our paper "Species Distribution Modeling of Citizen Science Data as a Classification Problem with Class-conditional Noise" was published on AAAI-17 in Feb. 2017
 
-There are currently two themes built on Poole:
+As a Master of Science student majored in Computer Science in Oregon State University, I have a significant background in machine learning and data science. Course highlights include: 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* CS534 Machine Learning
+* CS519 Deep Learning
+* CS536 Probabilistic Graphic Models
+* CS540 Database Management Systems
+* CS515 Algorithms & Data Structures
+* CS575 Introduction to Parallel Programming
+* CS496 Cloud and Mobile Development (Android)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Some of the course projects are available on [GitHub](https://github.com/helq2612).
 
-## Setup
+## Skills
 
-Some fun facts about the setup of this project include:
+### Coding Skills
+* Python 	2+ years
+* R    		3+ years
+* C/C++		1+ years
+* Java		2+ years
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+### Other Skills
+* Cooking
+* Fishing
+* Hiking
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thanks!

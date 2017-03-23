@@ -24,10 +24,10 @@ Some of the course projects are available on [GitHub](https://github.com/helq261
 ## Skills
 
 ### Coding Skills
-* Python 	2+ years
-* R    		3+ years
-* C/C++		1+ years
-* Java		2+ years
+  * Python 	  2+ years
+  * R    		  3+ years
+  * C/C++		  1+ years
+  * Java		  2+ years
 
 ### Other Skills
 * Cooking

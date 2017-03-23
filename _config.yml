@@ -7,9 +7,9 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Liqiang He
+title:            Liqiang
 tagline:          'Liqiang'
-description:      'A Software Engineer/Photographer/Gastronome'
+description:      'A Software Engineer /n /Photographer/n /Gastronome'
 url:              https://helq2612.github.io/
 baseurl:          https://helq2612.github.io/
 
@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.0
 
 github:
   repo:           https://github.com/helq2612

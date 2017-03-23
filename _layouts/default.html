@@ -1,23 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to Liqiang's Blog</title>
-	<link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
-</head>
+<html lang="en-us">
 
-<body>
-	<header>
-		<strong>Liqiang's Blog</strong>
-		{% include nav.html%}
-	</header>
+  {% include head.html %}
 
-	{{content}}
-</body>
+  <body>
 
-<footer>
-	<p>&copy 20160825</p>
-	{% include nav.html%}
+    {% include sidebar.html %}
 
-</footer>
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
 </html>

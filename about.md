@@ -7,7 +7,7 @@ title: About
   Hey there! I am Liqiang He, a CS graduate student in Oregon State University. 
 </p>
 
-Currently I am working in [Dr.Rebecca A. Hutchinson](http://eecs.oregonstate.edu/people/hutchinson-rebecca)'s Machine Learning Group, dealing with Occupancy-Detection Model that takes into account class-conditional noise in classification problems. Our paper "Species Distribution Modeling of Citizen Science Data as a Classification Problem with Class-conditional Noise" was published on AAAI-17 in Feb. 2017
+Currently I am working in [Dr.Rebecca A. Hutchinson](http://eecs.oregonstate.edu/people/hutchinson-rebecca)'s Machine Learning Group, dealing with Occupancy-Detection Model that takes into account class-conditional noise in classification problems. Our paper ["Species Distribution Modeling of Citizen Science Data as a Classification Problem with Class-conditional Noise"](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14859) was published on AAAI-17 in Feb. 2017.
 
 As a Master of Science student majored in Computer Science in Oregon State University, I have a significant background in machine learning and data science. Course highlights include: 
 

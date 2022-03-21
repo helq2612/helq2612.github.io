@@ -4,34 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there! I am Liqiang He, a CS graduate student in Oregon State University. 
+  Hey there! I am Liqiang He, a PhD Student in Oregon State University. 
 </p>
 
-Currently I am working in [Dr.Rebecca A. Hutchinson](http://eecs.oregonstate.edu/people/hutchinson-rebecca)'s Machine Learning Group, dealing with Occupancy-Detection Model that takes into account class-conditional noise in classification problems. Our paper ["Species Distribution Modeling of Citizen Science Data as a Classification Problem with Class-conditional Noise"](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14859) was published on AAAI-17 in Feb. 2017.
-
-As a Master of Science student majored in Computer Science in Oregon State University, I have a significant background in machine learning and data science. Course highlights include: 
-
-* CS534 Machine Learning
-* CS519 Deep Learning
-* CS536 Probabilistic Graphic Models
-* CS540 Database Management Systems
-* CS515 Algorithms & Data Structures
-* CS575 Introduction to Parallel Programming
-* CS496 Cloud and Mobile Development (Android)
-
-Some of the course projects are available on [GitHub](https://github.com/helq2612).
-
-## Skills
-
-### Coding Skills
-  * Python 	  2+ years
-  * R    		  3+ years
-  * C/C++		  1+ years
-  * Java		  2+ years
-
-### Other Skills
-* Cooking
-* Fishing
-* Hiking
-
-Thanks!
+Currently I am working in [Prof.Sinisa Todorovic](https://web.engr.oregonstate.edu/~sinisa/)'s Computer Vision Research Group, dealing with general computer vision problems, including object detection, instance segmentation, video action recognition, video action segmentation. Our paper ["DESTR: Object Detection with Split Transformer"] is accepted by CVPR 2022.

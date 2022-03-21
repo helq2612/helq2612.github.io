@@ -1,12 +1,16 @@
 ---
 layout: page
-title: Projects
+title: Experiences
 ---
 
-<p class="message">
-  Hey there! I will update several projects here, thanks for waiting:)
-</p>
+<!-- <p class="message">
+  
+</p> -->
 
-* [House Renting Suggestion](https://github.com/helq2612/House_Renting_Suggestion)
+* Graduate Research Assistance  (Mar.2022 -  Current)
+    AgAID project
+    Segment tree branches given RGBD videos, supporting downstream tasks such as tree pruning and nuts shaking.
 
-* [Full-Stack Web Development: Website for E.Cafe at Oregon State University](http://www.keccafe.com/)
+* Applied Scientist Intern      (Jun.2019 - Sep.2021)
+    Amazon 126 Lab
+    Worked on the Amazon [Astro robot](https://www.amazon.com/astro).

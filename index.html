@@ -20,7 +20,6 @@
 </head>
 
 <body class="is-preload">
-
     <!-- Header -->
     <header id="header">
         <div class="inner align-center">
@@ -80,46 +79,76 @@
             <br>
             <div class="row">
                 <ul class="">
-                    
-                     <!-- 2022 destr -->
+
+                    <!-- 2023 agaid_trunk -->
+                    <div class="align-center">
+                        <h4 class="dark">“Automatic estimation of trunk cross sectional area using deep learning”
+                            <span class="">(ECPA 23)</span></h4>
+                            <h5><strong>T Wang, P Sankari, J Brown, A Paudel, L He</strong>, M Karkee, A Thompson, C Grimm, JR Davidson, S Todorovic</h5>
+                            <h5>[<a href="https://web.engr.oregonstate.edu/~wangtie/files/ECPA23.pdf">PDF</a>] [<a href=" ">Code</a>] <a href="">[Poster]</a> </h5>
+                                    </div>
+                                    <br>
+                                    <div class="box alt">
+                                        <div class="row ">
+                                            <!-- gtr-150 gtr-uniform -->
+                                            <div class="col-4 col-12-small">
+                                                <span class="image fit ">
+                                                    <img src="images/papers/agaid_trunk_paper.png" alt="">
+                                                </span>
+                                            </div>
+                                            <div class="col-8 col-12-small">
+                                                <h5 align="justify">
+                                                    This paper presents an automated method for estimating the trunk cross sectional area of
+                                                    fruit trees. An Intel RealSense 435i was used to capture RGB images and point clouds of
+                                                    individual trunks. To segment the trunk in the image from the background, a Maskedattention Mask Transformer model was adopted. The segmentation results were
+                                                    integrated with the 3D point cloud to estimate trunk widths in 3D. The width estimation
+                                                    was evaluated on three diverse datasets collected from a commercial apple orchard using
+                                                    human measurements as ground truth. With a mean absolute error less than 5%, the
+                                                    method is sufficiently accurate to assist orchard operations. 
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                    <!-- 2022 destr -->
                     <div class="align-center">
                         <h4 class="dark">“DESTR: Object Detection with Split Transformer”
                             <span class="">(CVPR 22)</span></h4>
-			<h5><strong>Liqiang He</strong>, Sinisa Todorovic</h5>
-			<h5>[<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/He_DESTR_Object_Detection_With_Split_Transformer_CVPR_2022_paper.pdf">PDF</a>] [<a href="https://github.com/helq2612/destr">Code</a>] <a href="files/cvpr22_destr_poster_05442.pdf">[Poster]</a> </h5>
-                    </div>
-                    <br>
-                    <div class="box alt">
-                        <div class="row ">
-                            <!-- gtr-150 gtr-uniform -->
-                            <div class="col-4 col-12-small">
-                                <span class="image fit ">
-                                    <img src="images/papers/destr_pipeline.png" alt="">
-                                </span>
-                            </div>
-                            <div class="col-8 col-12-small">
-                                <h5 align="justify">
-                                    Self- and cross-attention in Transformers provide for
-                                    high model capacity, making them viable models for object detection. 
-                                    However, Transformers still lag in performance behind CNN-based detectors. 
-                                    This is, we believe, because: (a) Cross-attention is used for both classification and bounding-box regression tasks; 
-                                    (b) Transformer's decoder poorly initializes content queries; and (c)
-                                    Self-attention poorly accounts for certain prior knowledge
-                                    which could help improve inductive bias. These limitations
-                                    are addressed with the corresponding three contributions.
-                                    First, we propose a new Detection Split Transformer (DESTR) that separates estimation of cross-attention into two
-                                    independent branches -- one tailored for classification and
-                                    the other for box regression. Second, we use a mini-detector
-                                    to initialize the content queries in the decoder with classification and regression embeddings of the respective heads
-                                    in the mini-detector. Third, we augment self-attention in the
-                                    decoder to additionally account for pairs of adjacent object
-                                    queries. Our experiments on the MS-COCO dataset show
-                                    that DESTR outperforms DETR and its successors.
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    
+                            <h5><strong>Liqiang He</strong>, Sinisa Todorovic</h5>
+                            <h5>[<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/He_DESTR_Object_Detection_With_Split_Transformer_CVPR_2022_paper.pdf">PDF</a>] [<a href="https://github.com/helq2612/destr">Code</a>] <a href="files/cvpr22_destr_poster_05442.pdf">[Poster]</a> </h5>
+                                    </div>
+                                    <br>
+                                    <div class="box alt">
+                                        <div class="row ">
+                                            <!-- gtr-150 gtr-uniform -->
+                                            <div class="col-4 col-12-small">
+                                                <span class="image fit ">
+                                                    <img src="images/papers/destr_pipeline.png" alt="">
+                                                </span>
+                                            </div>
+                                            <div class="col-8 col-12-small">
+                                                <h5 align="justify">
+                                                    Self- and cross-attention in Transformers provide for
+                                                    high model capacity, making them viable models for object detection. 
+                                                    However, Transformers still lag in performance behind CNN-based detectors. 
+                                                    This is, we believe, because: (a) Cross-attention is used for both classification and bounding-box regression tasks; 
+                                                    (b) Transformer's decoder poorly initializes content queries; and (c)
+                                                    Self-attention poorly accounts for certain prior knowledge
+                                                    which could help improve inductive bias. These limitations
+                                                    are addressed with the corresponding three contributions.
+                                                    First, we propose a new Detection Split Transformer (DESTR) that separates estimation of cross-attention into two
+                                                    independent branches -- one tailored for classification and
+                                                    the other for box regression. Second, we use a mini-detector
+                                                    to initialize the content queries in the decoder with classification and regression embeddings of the respective heads
+                                                    in the mini-detector. Third, we augment self-attention in the
+                                                    decoder to additionally account for pairs of adjacent object
+                                                    queries. Our experiments on the MS-COCO dataset show
+                                                    that DESTR outperforms DETR and its successors.
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                    <!-- 2022 destr -->
 
                 </ul>
             </div>

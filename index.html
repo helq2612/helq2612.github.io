@@ -1,37 +1,162 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<head>
+    <title>Liqiang He</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="keywords" content="Liqiang He, Personal Webpage, Ph.D. student, OSU, Oregon State, Sinisa Todorovic, Deep Learning, Computer Vision , US, Graduate student">
+    <!-- <meta name="google-site-verification" content="ZsxjDJykOTsILWjMaY9zTQrHxx7fc5iV5g4y2GnLC3s" /> -->
+    <link rel="stylesheet" href="assets/css/css/academicons.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+</head>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner align-center">
+            <a href="#" class="image avatar"><img src="images/liqiang.JPG" alt="" /></a>
+            <h1>
+                <strong>Liqiang He</strong><br>
+                <p><code id="email">E-mail: heli (AT) oregonstate.edu</code></p>
+                <div class="inner align-center">
+                    <br>
+                    <code> <span id="cv">1-page CV</span>: </code>
+                    <p><a class="align-center" href="./files/LiqiangHe_CV.pdf" id="heli"><i class="fa fa-file-download fa-2x"></i></a></p>
+                    <br>
+                </div>
+            </h1>
+        </div>
+    </header> 
+    
+    <!-- Main -->
+    <div id="main">
+
+
+        <!-- ##################### INFO ############################# -->
+        <section id="one">
+            <header class="major">
+                <!--
+							<h2>Ipsum lorem dolor aliquam ante commodo<br />
+							magna sed accumsan arcu neque.</h2>
+-->
+            </header>
+            <div align="justify">Hi, I am a Ph.D. student of Computer Science at the <a href="https://eecs.oregonstate.edu/">School of Electrical Engineering and Computer Science, Oregon State University</a>. I am advised by Prof. <a href="https://web.engr.oregonstate.edu/~sinisa/">Sinisa Todorovic</a>. My research interests mainly lie in the area of Computer vision, especailly Object Detection, Image/Video Semantic/Instance Sementation, Object Tracking, Cross-domain Learning. <br><br>
+            </div>
+            <!--
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+-->
+        </section>
+
+
+        <!-- ##################### NEWS ############################# -->
+        <section>
+            <h2 class="align-center">News</h2>
+            <br>
+
+            <ul>
+		    <li> <span class="dark">July 23:</span> Our paper "Bidirectional Alignment for Domain Adaptive Detection with Transformers" (BiADT), is accepted to the ICCV 2023! <a href="https://arxiv.org/pdf">[PDF]</a> <a href="https://github.com/helq2612/BiADT">[Github]</a>
+
+            </ul>
+
+        </section>
+
+
+
+        <!-- ##################### PUBLICATIONS ############################# -->
+        <section id="two">
+            <h2 class="align-center">Publications</h2>
+            <br>
+            <div class="row">
+                <ul class="">
+                    
+                     <!-- 2022 destr -->
+                    <div class="align-center">
+                        <h4 class="dark">“DESTR: Object Detection with Split Transformer”
+                            <span class="">(CVPR 22)</span></h4>
+			<h5><strong>Liqiang He</strong>, Sinisa Todorovic</h5>
+			<h5>[<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/He_DESTR_Object_Detection_With_Split_Transformer_CVPR_2022_paper.pdf">PDF</a>] [<a href="https://github.com/helq2612/destr">Code</a>] <a href="files/cvpr22_destr_poster_05442.pdf">[Poster]</a> </h5>
+                    </div>
+                    <br>
+                    <div class="box alt">
+                        <div class="row ">
+                            <!-- gtr-150 gtr-uniform -->
+                            <div class="col-4 col-12-small">
+                                <span class="image fit ">
+                                    <img src="images/papers/c3lt.png" alt="">
+                                </span>
+                            </div>
+                            <div class="col-8 col-12-small">
+                                <h5 align="justify">
+                                    Self- and cross-attention in Transformers provide for
+                                    high model capacity, making them viable models for object detection. 
+                                    However, Transformers still lag in performance behind CNN-based detectors. 
+                                    This is, we believe, because: (a) Cross-attention is used for both classification and bounding-box regression tasks; 
+                                    (b) Transformer's decoder poorly initializes content queries; and (c)
+                                    Self-attention poorly accounts for certain prior knowledge
+                                    which could help improve inductive bias. These limitations
+                                    are addressed with the corresponding three contributions.
+                                    First, we propose a new Detection Split Transformer (DESTR) that separates estimation of cross-attention into two
+                                    independent branches -- one tailored for classification and
+                                    the other for box regression. Second, we use a mini-detector
+                                    to initialize the content queries in the decoder with classification and regression embeddings of the respective heads
+                                    in the mini-detector. Third, we augment self-attention in the
+                                    decoder to additionally account for pairs of adjacent object
+                                    queries. Our experiments on the MS-COCO dataset show
+                                    that DESTR outperforms DETR and its successors.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- ########################### FOOTER ############################# -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner align-center">
+            <br>
+            <ul class="icons">
+                <!--						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+                <li><a href="https://github.com/helq2612" class="icon tokhmi fa fa-github"><span class="label">Github</span></a></li>
+                <li><a href="https://www.linkedin.com/in/liqianghe/" class="icon fa tokhmi fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://scholar.google.com/citations?user=-e4_WQUAAAAJ&hl=en" id="helq2612"><i class="icon ai ai-google-scholar"></i></a></li>
+                <!--						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>-->
+            </ul>
+            <ul class="copyright">
+
+                <li>&copy; 2021 Liqiang He </li>
+                <li>Theme By: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
